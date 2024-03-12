@@ -1,0 +1,19 @@
+/* CSS Module을 사용하면 클래스명을 아무거나 입력해도 고유하게 변경해줌 */
+
+.box {
+  background-color: black;
+  color: white;
+  padding: 2rem;
+}
+
+.inverted {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+
+/* 글로벌 CSS로 사용하려면 (==> 이 컴포넌트에서 뿐만 아니라 다른데서도 사용하려면) */
+:global .something {
+  font-weight: 800;
+  color: rgb(209, 197, 27);
+}
